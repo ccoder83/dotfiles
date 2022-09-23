@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eou pipefail
 
-source /dev/stdin <<< "$(curl -fsSL https://raw.githubusercontent.com/jldeen/dotfiles/mac/script/prompt)"
+source /dev/stdin <<< "$(curl -fsSL https://raw.githubusercontent.com/ccoder83/dotfiles/mac/script/prompt)"
 
 brewInstall () {
     # Install brew
@@ -201,7 +201,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo ''
 	echo "Now pulling down jldeen dotfiles..."
-	git clone https://github.com/jldeen/dotfiles.git ~/.dotfiles
+	git clone https://github.com/ccoder83/dotfiles.git ~/.dotfiles
 	echo ''
 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
 	echo ''
