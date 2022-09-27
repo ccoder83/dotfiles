@@ -118,7 +118,7 @@ echo "Now installing Speedtest-cli, pip, tmux and jq..."
 echo ''
 sudo apt-get install jq tmux python-pip -y
 sudo pip install --upgrade pip
-sudo pip install speedtest-cli
+# sudo pip install speedtest-cli
 
 # Bash color scheme
 echo ''
@@ -135,7 +135,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo ''
 	echo "Now pulling down jldeen dotfiles..."
-	git clone https://github.com/jldeen/dotfiles.git ~/.dotfiles
+	git clone https://github.com/ccoder83/dotfiles.git ~/.dotfiles
 	echo ''
 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
 	echo ''
