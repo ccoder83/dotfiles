@@ -17,7 +17,7 @@ brew 'kubectx'
 
 brew 'openssl'
 brew 'node'
-
+brew 'python'
 
 brew 'reattach-to-user-namespace'
 brew 'ruby-build'
