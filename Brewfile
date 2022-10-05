@@ -29,6 +29,8 @@ brew 'unrar'
 brew 'watch'
 brew 'wget'
 brew 'yarn'
+brew 'k9s'
+brew 'minikube'
 
 cask 'iterm2'
 cask 'visual-studio-code'
