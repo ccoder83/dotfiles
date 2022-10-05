@@ -5,6 +5,9 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=/Users/$(whoami)/.cfg/ --work-tree=/Users/$(whoami)'
 alias badwifi='k config use-context docker-desktop'
 alias k='kubectl'
+alias kns='kubens'
+alias kctx='kubectx'
+alias kgp='kubectl get pods'
 alias tf='terraform'
 alias getPermissions="stat -f '%A %a %N' *"
 alias js='~/bin/show-struct.py'
