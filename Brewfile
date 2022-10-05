@@ -31,6 +31,8 @@ brew 'wget'
 brew 'yarn'
 brew 'k9s'
 brew 'minikube'
+brew 'kind'
+brew 'istioctl'
 
 cask 'iterm2'
 cask 'visual-studio-code'
