@@ -10,7 +10,8 @@ brewInstall () {
         if test "$(uname)" = "Darwin"
         then
             /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-            echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> $HOME/.zprofile
+	    echo '# Set PATH, MANPATH, etc., for Homebrew.' >> $HOME/.zprofile
+    	    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
             eval "$(/opt/homebrew/bin/brew shellenv)"
             success 'brew installed'
         elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
