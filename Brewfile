@@ -35,5 +35,5 @@ brew 'kind'
 brew 'istioctl'
 
 cask 'iterm2'
-cask 'visual-studio-code'
+# cask 'visual-studio-code'
 cask 'docker'
